@@ -46,3 +46,15 @@
 [Fri Jul 21 14:35:42.867461 2017] [mpm_winnt:notice] [pid 16200:tid 668] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Fri Jul 21 14:35:44.868608 2017] [mpm_winnt:notice] [pid 5936:tid 588] AH00364: Child: All worker threads have exited.
 [Fri Jul 21 14:35:44.898711 2017] [mpm_winnt:notice] [pid 16200:tid 668] AH00430: Parent: Child process 5936 exited successfully.
+[Fri Jul 21 18:12:40.669678 2017] [ssl:warn] [pid 19856:tid 620] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 21 18:12:42.959994 2017] [ssl:warn] [pid 19856:tid 620] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 21 18:12:43.419554 2017] [mpm_winnt:notice] [pid 19856:tid 620] AH00455: Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 configured -- resuming normal operations
+[Fri Jul 21 18:12:43.420054 2017] [mpm_winnt:notice] [pid 19856:tid 620] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Fri Jul 21 18:12:43.420054 2017] [core:notice] [pid 19856:tid 620] AH00094: Command line: 'C:\\Bitnami\\wordpress-4.8-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/wordpress-4.8-0/apache2 -f C:/Bitnami/wordpress-4.8-0/apache2\\conf\\httpd.conf'
+[Fri Jul 21 18:12:43.445557 2017] [mpm_winnt:notice] [pid 19856:tid 620] AH00418: Parent: Created child process 21676
+[Fri Jul 21 18:12:50.548488 2017] [ssl:warn] [pid 21676:tid 692] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 21 18:12:51.769146 2017] [ssl:warn] [pid 21676:tid 692] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 21 18:12:51.873657 2017] [mpm_winnt:notice] [pid 21676:tid 692] AH00354: Child: Starting 64 worker threads.
+[Fri Jul 21 18:42:47.061610 2017] [mpm_winnt:notice] [pid 19856:tid 620] AH00422: Parent: Received shutdown signal -- Shutting down the server.
+[Fri Jul 21 18:42:49.174880 2017] [mpm_winnt:notice] [pid 21676:tid 692] AH00364: Child: All worker threads have exited.
+[Fri Jul 21 18:42:49.560956 2017] [mpm_winnt:notice] [pid 19856:tid 620] AH00430: Parent: Child process 21676 exited successfully.

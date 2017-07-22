@@ -456,6 +456,7 @@ Version: '5.7.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2017-07-21T22:43:23.658088Z 0 [Note] C:\Bitnami\wordpress-4.8-0\mysql\bin\mysqld.exe: Shutdown complete
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 2017-07-21T22:48:51.069856Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
 2017-07-21T22:48:51.069856Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
 2017-07-21T22:48:51.070358Z 0 [Note] C:\Bitnami\WORDPR~1.8-0\mysql\bin\mysqld.exe (mysqld 5.7.18) starting as process 9668 ...
@@ -546,6 +547,8 @@ Version: '5.7.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2017-07-22T00:01:13.528748Z 0 [Note] Shutting down plugin 'binlog'
 2017-07-22T00:01:13.529751Z 0 [Note] C:\Bitnami\WORDPR~1.8-0\mysql\bin\mysqld.exe: Shutdown complete
 =======
+=======
+>>>>>>> 6b01a859f2104ed813f14b68ce380571a2341b5e
 2017-07-21T22:49:54.847562Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
 2017-07-21T22:49:54.848062Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
 2017-07-21T22:49:54.849062Z 0 [Note] C:\Bitnami\wordpress-4.8-0\mysql\bin\mysqld.exe (mysqld 5.7.18) starting as process 4428 ...
@@ -635,5 +638,8 @@ Version: '5.7.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2017-07-21T23:27:25.274242Z 0 [Note] Shutting down plugin 'mysql_native_password'
 2017-07-21T23:27:25.280744Z 0 [Note] Shutting down plugin 'binlog'
 2017-07-21T23:27:25.739803Z 0 [Note] C:\Bitnami\wordpress-4.8-0\mysql\bin\mysqld.exe: Shutdown complete
+<<<<<<< HEAD
+>>>>>>> 6b01a859f2104ed813f14b68ce380571a2341b5e
+=======
 >>>>>>> 6b01a859f2104ed813f14b68ce380571a2341b5e
 

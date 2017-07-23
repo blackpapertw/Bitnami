@@ -91,6 +91,7 @@
 >>>>>>> 6b01a859f2104ed813f14b68ce380571a2341b5e
 =======
 >>>>>>> 6b01a859f2104ed813f14b68ce380571a2341b5e
+<<<<<<< HEAD
 [Fri Jul 21 20:09:08.800385 2017] [ssl:warn] [pid 4612:tid 672] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
 [Fri Jul 21 20:09:08.934341 2017] [ssl:warn] [pid 4612:tid 672] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
 [Fri Jul 21 20:09:08.946884 2017] [mpm_winnt:notice] [pid 4612:tid 672] AH00455: Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 configured -- resuming normal operations
@@ -103,3 +104,24 @@
 [Sun Jul 23 16:21:26.280779 2017] [mpm_winnt:notice] [pid 4612:tid 672] AH00422: Parent: Received shutdown signal -- Shutting down the server.
 [Sun Jul 23 16:21:28.282309 2017] [mpm_winnt:notice] [pid 9228:tid 648] AH00364: Child: All worker threads have exited.
 [Sun Jul 23 16:21:28.329371 2017] [mpm_winnt:notice] [pid 4612:tid 672] AH00430: Parent: Child process 9228 exited successfully.
+=======
+[Fri Jul 21 20:25:29.378341 2017] [ssl:warn] [pid 16560:tid 628] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 21 20:25:30.369967 2017] [ssl:warn] [pid 16560:tid 628] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 21 20:25:32.296714 2017] [mpm_winnt:notice] [pid 16560:tid 628] AH00455: Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 configured -- resuming normal operations
+[Fri Jul 21 20:25:32.297213 2017] [mpm_winnt:notice] [pid 16560:tid 628] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Fri Jul 21 20:25:32.297213 2017] [core:notice] [pid 16560:tid 628] AH00094: Command line: 'C:\\Bitnami\\wordpress-4.8-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/wordpress-4.8-0/apache2 -f C:/Bitnami/wordpress-4.8-0/apache2\\conf\\httpd.conf'
+[Fri Jul 21 20:25:32.315714 2017] [mpm_winnt:notice] [pid 16560:tid 628] AH00418: Parent: Created child process 20576
+[Fri Jul 21 20:25:36.395761 2017] [ssl:warn] [pid 20576:tid 580] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 21 20:25:37.364384 2017] [ssl:warn] [pid 20576:tid 580] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Fri Jul 21 20:25:37.445395 2017] [mpm_winnt:notice] [pid 20576:tid 580] AH00354: Child: Starting 64 worker threads.
+[Sun Jul 23 13:56:10.384408 2017] [ssl:warn] [pid 3356:tid 616] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 13:56:10.868784 2017] [core:warn] [pid 3356:tid 616] AH00098: pid file C:/Bitnami/wordpress-4.8-0/apache2/logs/httpd.pid overwritten -- Unclean shutdown of previous Apache run?
+[Sun Jul 23 13:56:11.415695 2017] [ssl:warn] [pid 3356:tid 616] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 13:56:22.610996 2017] [mpm_winnt:notice] [pid 3356:tid 616] AH00455: Apache/2.4.25 (Win32) OpenSSL/1.0.2j PHP/7.0.18 configured -- resuming normal operations
+[Sun Jul 23 13:56:22.610996 2017] [mpm_winnt:notice] [pid 3356:tid 616] AH00456: Apache Lounge VC14 Server built: Dec 17 2016 10:42:52
+[Sun Jul 23 13:56:22.610996 2017] [core:notice] [pid 3356:tid 616] AH00094: Command line: 'C:\\Bitnami\\WORDPR~1.8-0\\apache2\\bin\\httpd.exe -d C:/Bitnami/wordpress-4.8-0/apache2 -f C:\\Bitnami\\WORDPR~1.8-0\\apache2\\conf\\httpd.conf'
+[Sun Jul 23 13:56:22.626622 2017] [mpm_winnt:notice] [pid 3356:tid 616] AH00418: Parent: Created child process 6512
+[Sun Jul 23 13:56:27.595382 2017] [ssl:warn] [pid 6512:tid 600] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 13:56:28.595385 2017] [ssl:warn] [pid 6512:tid 600] AH01909: localhost:443:0 server certificate does NOT include an ID which matches the server name
+[Sun Jul 23 13:56:28.657885 2017] [mpm_winnt:notice] [pid 6512:tid 600] AH00354: Child: Starting 64 worker threads.
+>>>>>>> b59c51d2c9a150908134027f1473d94b2ac92f89

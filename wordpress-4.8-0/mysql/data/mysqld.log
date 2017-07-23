@@ -643,6 +643,7 @@ Version: '5.7.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
 =======
 >>>>>>> 6b01a859f2104ed813f14b68ce380571a2341b5e
 
+<<<<<<< HEAD
 2017-07-22T00:09:07.943049Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
 2017-07-22T00:09:07.943049Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
 2017-07-22T00:09:07.943551Z 0 [Note] C:\Bitnami\WORDPR~1.8-0\mysql\bin\mysqld.exe (mysqld 5.7.18) starting as process 3112 ...
@@ -733,3 +734,109 @@ Version: '5.7.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
 2017-07-23T20:21:30.160736Z 0 [Note] Shutting down plugin 'binlog'
 2017-07-23T20:21:30.164751Z 0 [Note] C:\Bitnami\WORDPR~1.8-0\mysql\bin\mysqld.exe: Shutdown complete
 
+=======
+2017-07-22T00:25:03.841961Z 0 [Warning] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-07-22T00:25:03.842462Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-07-22T00:25:03.963003Z 0 [Note] C:\Bitnami\wordpress-4.8-0\mysql\bin\mysqld.exe (mysqld 5.7.18) starting as process 16508 ...
+2017-07-22T00:25:04.420559Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-07-22T00:25:04.429561Z 0 [Note] InnoDB: Uses event mutexes
+2017-07-22T00:25:04.434559Z 0 [Note] InnoDB: Memory barrier is not used
+2017-07-22T00:25:04.442062Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-07-22T00:25:04.666089Z 0 [Note] InnoDB: Number of pools: 1
+2017-07-22T00:25:04.669590Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2017-07-22T00:25:04.696595Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2017-07-22T00:25:04.901120Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-07-22T00:25:06.251291Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-07-22T00:25:09.689229Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-07-22T00:25:09.695230Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-07-22T00:25:09.817247Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2017-07-22T00:25:09.904257Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-07-22T00:25:09.910258Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-07-22T00:25:09.915259Z 0 [Note] InnoDB: Waiting for purge to start
+2017-07-22T00:25:09.971766Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 4652ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-07-22T00:25:09.982267Z 0 [Note] InnoDB: 5.7.18 started; log sequence number 4745199
+2017-07-22T00:25:09.988766Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-07-22T00:25:09.989767Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Bitnami\wordpress-4.8-0\mysql\data\ib_buffer_pool
+2017-07-22T00:25:09.994270Z 0 [ERROR] InnoDB: Error parsing 'C:\Bitnami\wordpress-4.8-0\mysql\data\ib_buffer_pool', unable to load buffer pool (stage 1)
+2017-07-22T00:25:10.286805Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-07-22T00:25:10.291307Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2017-07-22T00:25:10.299814Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2017-07-22T00:25:10.309811Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2017-07-22T00:25:17.551786Z 0 [Note] Event Scheduler: Loaded 0 events
+2017-07-22T00:25:17.557283Z 0 [Note] C:\Bitnami\wordpress-4.8-0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.7.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-07-22T00:25:17.562284Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2017-07-22T00:25:17.570784Z 0 [Note] Beginning of list of non-natively partitioned tables
+2017-07-22T00:25:23.929119Z 0 [Note] End of list of non-natively partitioned tables
+2017-07-22T23:42:19.898490Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 61644137ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-07-23T14:35:59.826454Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 41680846ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-07-23T17:56:02.0817-07-53T17:56:02.701555Z 0 [WarnP wng] TIMESTAMP with implicit DEFAULT value is deprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-07-23T17:56:0FAULT vaZ 0 [Note] --secure-file-priv is set to lULL. Operations related to importing and exporting data are disabled
+2017-07-23T17:56:03.232808Z 0 [Note] C:\Bitnami\wordpress-4.8-0\mysql\bin\mysqld.exe (mysqld 5.7.18) starting as process 3600 ...
+eprecated. Please use --explicit_defaults_for_timestamp server option (see documentation for more details).
+2017-07-23T17:56:02.998431Z 0 [Note] --secure-file-priv is set to NULL. Operations related to importing and exporting data are disabled
+2017-07-23T17:56:03.232808Z 0 [Note] C:\Bitnami\WORDPR~1.8-0\mysql\bin\mysqld.exe (mysqld 5.7.18) starting as process 3608 ...
+2017-07-23T17:56:08.579704Z 0 [Warning] Can't create test file C:\Bitnami\wordpress-4.8-0\mysql\data\DESKTOP-754BOC0.lower-test
+2017-07-23T17:56:09.759406Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-07-23T17:56:09.759406Z 0 [Note] InnoDB: Uses event mutexes
+2017-07-23T17:56:09.759406Z 0 [Note] InnoDB: Memory barrier is not used
+2017-07-23T17:56:09.759406Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-07-23T17:56:09.775031Z 0 [Note] InnoDB: Mutexes and rw_locks use Windows interlocked functions
+2017-07-23T17:56:09.775031Z 0 [Note] InnoDB: Uses event mutexes
+2017-07-23T17:56:09.790657Z 0 [Note] InnoDB: Memory barrier is not used
+2017-07-23T17:56:09.790657Z 0 [Note] InnoDB: Compressed tables use zlib 1.2.3
+2017-07-23T17:56:09.915657Z 0 [Note] InnoDB: Number of pools: 1
+2017-07-23T17:56:09.962532Z 0 [Note] InnoDB: Number of pools: 1
+2017-07-23T17:56:10.056282Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2017-07-23T17:56:10.071906Z 0 [Note] InnoDB: Not using CPU crc32 instructions
+2017-07-23T17:56:10.259407Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2017-07-23T17:56:10.275032Z 0 [Note] InnoDB: Initializing buffer pool, total size = 128M, instances = 1, chunk size = 128M
+2017-07-23T17:56:10.400033Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-07-23T17:56:10.431283Z 0 [Note] InnoDB: Completed initialization of buffer pool
+2017-07-23T17:56:10.587533Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2017-07-23T17:56:10.587533Z 0 [ERROR] InnoDB: The innodb_system data file 'ibdata1' must be writable
+2017-07-23T17:56:10.603157Z 0 [ERROR] InnoDB: Plugin initialization aborted with error Generic error
+2017-07-23T17:56:10.821908Z 0 [ERROR] Plugin 'InnoDB' init function returned error.
+2017-07-23T17:56:10.837534Z 0 [ERROR] Plugin 'InnoDB' registration as a STORAGE ENGINE failed.
+2017-07-23T17:56:10.837534Z 0 [ERROR] Failed to initialize plugins.
+2017-07-23T17:56:10.837534Z 0 [ERROR] Aborting
+
+2017-07-23T17:56:10.837534Z 0 [Note] Binlog end
+2017-07-23T17:56:11.118785Z 0 [Note] Shutting down plugin 'CSV'
+2017-07-23T17:56:11.181283Z 0 [Note] InnoDB: Highest supported file format is Barracuda.
+2017-07-23T17:56:11.384445Z 0 [Note] InnoDB: Log scan progressed past the checkpoint lsn 4853917
+2017-07-23T17:56:11.400070Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 4853926
+2017-07-23T17:56:11.400070Z 0 [Note] InnoDB: Doing recovery: scanned up to log sequence number 4853926
+2017-07-23T17:56:11.415695Z 0 [Note] InnoDB: Database was not shutdown normally!
+2017-07-23T17:56:11.415695Z 0 [Note] InnoDB: Starting crash recovery.
+2017-07-23T17:56:11.446947Z 0 [Note] C:\Bitnami\wordpress-4.8-0\mysql\bin\mysqld.exe: Shutdown complete
+
+2017-07-23T17:56:27.907882Z 0 [Note] InnoDB: Removed temporary tablespace data file: "ibtmp1"
+2017-07-23T17:56:27.923508Z 0 [Note] InnoDB: Creating shared tablespace for temporary tables
+2017-07-23T17:56:27.923508Z 0 [Note] InnoDB: Setting file '.\ibtmp1' size to 12 MB. Physically writing the file full; Please wait ...
+2017-07-23T17:56:28.454759Z 0 [Note] InnoDB: File '.\ibtmp1' size is now 12 MB.
+2017-07-23T17:56:28.470383Z 0 [Note] InnoDB: 96 redo rollback segment(s) found. 96 redo rollback segment(s) are active.
+2017-07-23T17:56:28.470383Z 0 [Note] InnoDB: 32 non-redo rollback segment(s) are active.
+2017-07-23T17:56:28.470383Z 0 [Note] InnoDB: Waiting for purge to start
+2017-07-23T17:56:28.548510Z 0 [Note] InnoDB: Waiting for purge to start
+2017-07-23T17:56:28.642261Z 0 [Note] InnoDB: Waiting for purge to start
+2017-07-23T17:56:28.814137Z 0 [Note] InnoDB: Waiting for purge to start
+2017-07-23T17:56:28.876636Z 0 [Note] InnoDB: Waiting for purge to start
+2017-07-23T17:56:28.939135Z 0 [Note] InnoDB: Waiting for purge to start
+2017-07-23T17:56:29.001634Z 0 [Note] InnoDB: Waiting for purge to start
+2017-07-23T17:56:29.204762Z 0 [Note] InnoDB: page_cleaner: 1000ms intended loop took 18758ms. The settings might not be optimal. (flushed=0 and evicted=0, during the time.)
+2017-07-23T17:56:29.267259Z 0 [Note] InnoDB: 5.7.18 started; log sequence number 4853926
+2017-07-23T17:56:29.267259Z 0 [Note] InnoDB: Loading buffer pool(s) from C:\Bitnami\wordpress-4.8-0\mysql\data\ib_buffer_pool
+2017-07-23T17:56:29.439137Z 0 [ERROR] InnoDB: Error parsing 'C:\Bitnami\wordpress-4.8-0\mysql\data\ib_buffer_pool', unable to load buffer pool (stage 1)
+2017-07-23T17:56:29.845388Z 0 [Note] Plugin 'FEDERATED' is disabled.
+2017-07-23T17:56:31.611015Z 0 [Warning] Failed to set up SSL because of the following SSL library error: SSL context is not usable without certificate and private key
+2017-07-23T17:56:31.626641Z 0 [Note] Server hostname (bind-address): '127.0.0.1'; port: 3306
+2017-07-23T17:56:31.642266Z 0 [Note]   - '127.0.0.1' resolves to '127.0.0.1';
+2017-07-23T17:56:31.642266Z 0 [Note] Server socket created on IP: '127.0.0.1'.
+2017-07-23T17:56:41.859346Z 0 [Note] Event Scheduler: Loaded 0 events
+2017-07-23T17:56:41.859346Z 0 [Note] C:\Bitnami\WORDPR~1.8-0\mysql\bin\mysqld.exe: ready for connections.
+Version: '5.7.18'  socket: ''  port: 3306  MySQL Community Server (GPL)
+2017-07-23T17:56:41.874970Z 0 [Note] Executing 'SELECT * FROM INFORMATION_SCHEMA.TABLES;' to get a list of tables using the deprecated partition engine. You may use the startup option '--disable-partition-engine-check' to skip this check. 
+2017-07-23T17:56:41.874970Z 0 [Note] Beginning of list of non-natively partitioned tables
+2017-07-23T17:57:05.349569Z 0 [Note] End of list of non-natively partitioned tables
+>>>>>>> b59c51d2c9a150908134027f1473d94b2ac92f89
